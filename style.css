@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    place-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: rebeccapurple;
+}
+
+.container > .gray{
+    display: grid;
+    grid-column: 3;
+    grid-row: 4;
+    background-color: gray;
+}
